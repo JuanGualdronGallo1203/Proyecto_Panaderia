@@ -21,7 +21,7 @@ def guardar_datos(datos, archivo):
     Guarda datos en un archivo JSON.
     """
     with open(archivo, 'w') as f:  # Abre el archivo en modo escritura ('w').
-        json.dump(datos, f, indent=4)  # Guarda los datos en formato JSON con sangría para mejorar la legibilidad.
+        json.dump(datos, f, indent=4)  # Guarda los datos en formato JSON para mejorar la legibilidad.
 
 def generar_codigo():
     """
